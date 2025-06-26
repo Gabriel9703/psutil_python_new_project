@@ -1,0 +1,53 @@
+# Python cache e arquivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+database/
+# Ambientes virtuais
+venv/
+.venv/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Configs locais
+.env
+.env.*
+
+# PIP e dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Coverage, testes e reports
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# mypy, pytype, pyre
+.mypy_cache/
+.pytype/
+.pyre/
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# SQLite (caso use)
+*.sqlite3

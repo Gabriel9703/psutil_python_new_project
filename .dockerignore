@@ -1,0 +1,36 @@
+# Diretórios e arquivos de ambiente virtual
+venv/
+.venv/
+
+# Arquivos Python cache
+__pycache__/
+*.py[cod]
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração locais
+.env
+.env.*
+
+# Diretórios de build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Cache de testes e ferramentas
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.cache/
+
+# VSCode
+.vscode/
+
+# Notebooks e checkpoints
+.ipynb_checkpoints/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
